@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tutorial
+title: Instructions
 nav_order: 8
 has_children: true
 ---

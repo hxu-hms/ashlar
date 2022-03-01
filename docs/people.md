@@ -12,8 +12,9 @@ last_modified_date: 2022-03-01
 * [Yu-An Chen](https://github.com/Yu-AnChen)
 * [Douglas Russell](https://github.com/dpwrussell)
 
-## Developers
-__
+## Contributors
+* Juliann Tefft
+* Han Xu
 
 ## Laboratory Principal Investigators:
 * [Peter K. Sorger](https://scholar.google.com/citations?user=wS6Ii_cAAAAJ&hl=en)

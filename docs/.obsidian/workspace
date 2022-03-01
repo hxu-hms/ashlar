@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "overview/overview-land.md",
+            "file": "instructions/parameter-tuning.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "overview/overview-land.md",
+                "file": "instructions/parameter-tuning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,15 @@
   },
   "active": "ea779694784fc800",
   "lastOpenFiles": [
+    "instructions/parameter-tuning.md",
+    "people.md",
+    "index.md",
+    "funding.md",
+    "FAQ.md",
+    "roadmap/updates.md",
+    "roadmap/index.md",
     "overview/overview-land.md",
-    "methodology/index.md"
+    "overview/DetCompMethods.md",
+    "instructions/installation.md"
   ]
 }

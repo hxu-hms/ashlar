@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_exclude: false
+nav_exclude: true
 nav_order: 40
 title: FAQ
 
