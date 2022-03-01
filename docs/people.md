@@ -13,8 +13,8 @@ last_modified_date: 2022-03-01
 * [Douglas Russell](https://github.com/dpwrussell)
 
 ## Contributors
-* Juliann Tefft
-* Han Xu
+* [Juliann Tefft](https://www.linkedin.com/in/juliann-tefft)
+* [Han Xu](https://www.linkedin.com/in/han-xu-16a0216b/)
 
 ## Laboratory Principal Investigators:
 * [Peter K. Sorger](https://scholar.google.com/citations?user=wS6Ii_cAAAAJ&hl=en)
