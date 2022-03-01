@@ -6,7 +6,8 @@ has_children: true
 last_modified_date: 2022-02-18
 ---
 
-# Overview
+# Overview 
+## ASHLAR: Alignment by Simultaneous Harmonization of Layer/Adjacency Registration
 {:.no_toc }
 
 <details open markdown="block">
