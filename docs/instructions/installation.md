@@ -38,5 +38,7 @@ conda install -y -c conda-forge numpy scipy matplotlib networkx scikit-image=0.1
 pip install ashlar
 ```
 
+### Docker image
+The docker image of ashlar is on [DockerHub](https://hub.docker.com/r/labsyspharm/ashlar) and should be suitable for many use cases.
 
 **Return to the [quick start guide](./) to learn more about how to use ASHLAR.**
