@@ -8,7 +8,8 @@ nav_order: 12
 
 # Running ASHLAR
 
-For detailed instructions on how to install ASHLAR, see [installation](./installation.html).
+For detailed instructions on how to install ASHLAR, see [installation](./installation.html).  
+For step-by-step instructions, see the [quick start guide](./).
 
 ## Description
 **Ashlar** performs fast, high-quality stitching of microscopy images. It also co-registers multiple rounds of cyclic imaging for methods such as CyCIF and CODEX. 
@@ -16,9 +17,7 @@ For detailed instructions on how to install ASHLAR, see [installation](./install
 ### Input
 Ashlar can read image data directly from BioFormats-supported microscope vendor file formats. ASHLAR can also read a directory of plain TIFF files, however, additional steps are required for this. Further details about how to make TIFF files compatible with ASHLAR will be added soon. 
 
-**Note:** *Ashlar requires unstitched individual "tile" images as input, so it is
-not suitable for microscopes or slide scanners that only provide pre-stitched
-images.*
+> **Note:** *Ashlar requires unstitched individual "tile" images as input, so it is not suitable for microscopes or slide scanners that only provide pre-stitched images.*
 
 ### Output
 Output is saved as pyramidal, tiled OME-TIFF.
@@ -36,7 +35,6 @@ ashlar run [OPTIONS] [FILE [FILE ...]]
 | ```FILE``` | an image file to be processed (one file per cycle) |
 
 ### Optional arguments
-*Detailed information on tuning these parameters will be added soon.*
 
 |Name| Shorthand| Description | Default|
 |---|---|---|---|
@@ -58,5 +56,7 @@ ashlar run [OPTIONS] [FILE [FILE ...]]
 |```--plates```||Enable mode for multi-well plates (for high-throughput screening assays)||
 |```--quiet```|```-q```|Suppress progress display||
 |```--version```||Print version||
+  
+  > **Note:** *Detailed information on how to tune these parameters will be added soon.*
   
 ## Examples

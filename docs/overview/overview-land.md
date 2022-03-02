@@ -34,6 +34,7 @@ ii) registers the relative location of images from subsequent cycles to the firs
 iii) uses these relative positions to generate a final multidimensional mosaic image. 
 
 ASHLAR reads image formats from most commercial microscopes and outputs standard OME-TIFF images.  
+
 ASHLAR is written in Python and is available under the MIT License. Download ASHLAR at: [https://github.com/labsyspharm/ashlar](https://github.com/labsyspharm/ashlar).
 
 ## Step 0: Collect multidimensional image data   
@@ -43,7 +44,7 @@ ASHLAR is written in Python and is available under the MIT License. Download ASH
 
 Each image tile is assigned an identifier based on sample location. Location data can be extracted directly from BioFormats image metadata ([Li et al., 2016](https://doi.org/10.1016/j.ymeth.2015.10.006)) that is produced by many commercial microscopes. ASHLAR can also process images from microscopes that do not support BioFormats if they follow consistent naming convention, acquisition order, and tile overlap.
 
-*There are a number of methods to collect multidimensional images. ASHLAR is compatible with many of these methods. For more information on CyCIF, the primary multiplexed image aquisition method used by the LSP, read the [manuscript](https://doi.org/10.7554/eLife.31657) or [protocol](https://dx.doi.org/10.17504/protocols.io.bjiukkew).*
+> **Note:** *There are a number of methods to collect multidimensional images. ASHLAR is compatible with many of these methods. For more information on CyCIF, the primary multiplexed image aquisition method used by the LSP, read the [manuscript](https://doi.org/10.7554/eLife.31657) or [protocol](https://dx.doi.org/10.17504/protocols.io.bjiukkew).*
 
 ## Step 1: Stitching
 **Align adjacent images across a single cycle by using overlapping regions.**

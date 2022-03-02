@@ -36,6 +36,7 @@ ASHLAR is written in Python and is available under the MIT License. It can be do
 For more information about the MCMICRO pipeline, see [mcmicro.org](mcmicro.org).
 
 
+**For more details, read the pre-print manuscript here: [https://doi.org/10.1101/2021.04.20.440625](https://doi.org/10.1101/2021.04.20.440625).**
 
 
 

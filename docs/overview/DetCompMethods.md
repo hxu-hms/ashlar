@@ -45,17 +45,17 @@ For alignments that pass the filter, tiles from the target-cycle are positioned 
 ### 2.5: Position remaining tiles with linear model
 The remaining tiles (generally those with sparse or no tissue, or where the tissue was damaged significantly during inter-cycle sample handling) are positioned using the linear regression model constructed in the stitching phase.  
 
+>*The result of the stitching and registration phases is a corrected global position for every image tile.* 
 
 # Step 3: Mosaic Image Generation
 ![Image corresponding to description of steps below.]({{ site.baseurl }}/assets/images/details3.png)
 
-The result of the stitching and registration phases is a corrected global position for every image tile.  
-
+### 3.1 Create empty image large enough for full data set
 To generate the final output image mosaic, we create an empty image large enough to encompass all corrected tile positions and copy each tile into it at the appropriate coordinates.  
-
+### 3.2 Input tile position data
 Since each pairwise image registration is computed to a precision of 0.1 pixels as described above, adding up several of these shifts to determine the final coordinates for a given tile generally yields non-integer values. ASHLAR defaults to applying sub-pixel translations on the tile images to account for this, but some users may prefer to round the final positions to the nearest pixel instead. 
-
+### 3.3 Combine overlapping regions with linear blending
 Where neighboring image tiles overlap in the mosaic, they are combined with linear blending or one of several other user- selectable blending functions. 
-
+### 3.4 Output mosaic image
 The final many-channel image is then written out as a standard OME- TIFF file containing a multi-resolution image pyramid to support efficient visualization. 
 
