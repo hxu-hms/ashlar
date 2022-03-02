@@ -9,7 +9,7 @@ last_modified_date: 2022-02-17
 ## Human Normal Colon
 The following images show an example mosaic image compiled by ASHLAR from high-plex tissue data. These images represent a ~24 mm x 14 mm x 5 μm section of a human normal colon sample (obtained from the Cooperative Human Tumor Network [https://www.chtn.org/](https://www.chtn.org/)). A grid of 609 overlapping tiles (29 x 21) was required to image the entire specimen. Full-resolution insets at tile junctions indicate highly accurate image stitching by ASHLAR. 
 
-To test ASHLAR, download the data below and process the data set yourself by following the [tutorial](https://hxu-hms.github.io/ashlar/methodology/).
+To test ASHLAR, download the data below and process the data set yourself by following the [quick start guide](./instructions).
 
 [Download Example Data on Synapse](https://dx.doi.org/10.7303/syn25826362){: .btn .btn-outline .btn-arrow }
 

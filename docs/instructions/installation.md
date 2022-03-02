@@ -38,4 +38,4 @@ pip install ashlar
 ```
 
 
-**Return to the [tutorial](https://hxu-hms.github.io/ashlar/methodology/) to learn more about how to use ASHLAR.**
+**Return to the [quick start guide](./) to learn more about how to use ASHLAR.**

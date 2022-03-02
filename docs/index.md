@@ -2,15 +2,16 @@
 layout: default
 title: Home
 nav_order: 1
+has_children: true
 description: ""
 hero_heading: "ASHLAR"
-hero_body: "A software package that combines multi-tile microscopy images into a high dimensional mosaic image."
+hero_body: "A software package that combines multi-tile microscopy images into a high-dimensional mosaic image."
 hero_ctas:
   - label: "OVERVIEW"
     link: "overview/overview-land.html"
-  - label: "DATASET"
-    link: "dataset.html"
-last_modified_date: 2022-02-17
+  - label: "Quick Start"
+    link: "instructions/"
+last_modified_date: 2022-03-02
 ---
 
 # Key Features

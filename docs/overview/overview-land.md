@@ -7,7 +7,7 @@ last_modified_date: 2022-02-18
 ---
 
 # Overview 
-## ASHLAR: Alignment by Simultaneous Harmonization of Layer/Adjacency Registration
+
 {:.no_toc }
 
 <details open markdown="block">
@@ -18,6 +18,9 @@ last_modified_date: 2022-02-18
   - TOC
 {:toc}
 </details>
+
+# What's ASHLAR?
+**ASHLAR: Alignment by Simultaneous Harmonization of Layer / Adjacency Registration** is a software package that combines multi-tile microscopy images into a high-dimensional mosaic image.
 
 # Why ASHLAR?
 
@@ -40,7 +43,7 @@ ASHLAR is written in Python and is available under the MIT License. Download ASH
 
 Each image tile is assigned an identifier based on sample location. Location data can be extracted directly from BioFormats image metadata ([Li et al., 2016](https://doi.org/10.1016/j.ymeth.2015.10.006)) that is produced by many commercial microscopes. ASHLAR can also process images from microscopes that do not support BioFormats if they follow consistent naming convention, acquisition order, and tile overlap.
 
-*For more information on how multidimensional images are collected experimentally, see [https://dx.doi.org/10.17504/protocols.io.bjiukkew](https://dx.doi.org/10.17504/protocols.io.bjiukkew).*
+*There are a number of methods to collect multidimensional images. ASHLAR is compatible with many of these methods. For more information on CyCIF, the primary multiplexed image aquisition method used by the LSP, read the [manuscript](https://doi.org/10.7554/eLife.31657) or [protocol](https://dx.doi.org/10.17504/protocols.io.bjiukkew).*
 
 ## Step 1: Stitching
 **Align adjacent images across a single cycle by using overlapping regions.**

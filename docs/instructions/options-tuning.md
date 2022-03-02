@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_exclude: true
-title: Parameter Tuning
+title: Options Tuning
 parent: Instructions
 ---
 

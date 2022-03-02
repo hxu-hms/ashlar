@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "people.md",
+            "file": "dataset.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "people.md",
+                "file": "dataset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "ea779694784fc800",
   "lastOpenFiles": [
-    "people.md",
-    "instructions/parameter-tuning.md",
+    "dataset.md",
     "index.md",
-    "funding.md",
-    "FAQ.md",
+    "instructions/index.md",
+    "instructions/options.md",
     "roadmap/updates.md",
-    "roadmap/index.md",
-    "overview/overview-land.md",
-    "overview/DetCompMethods.md",
-    "instructions/installation.md"
+    "instructions/installation.md",
+    "how-to-use.md",
+    "FAQ.md",
+    "instructions/options-tuning.md",
+    "overview/overview-land.md"
   ]
 }
