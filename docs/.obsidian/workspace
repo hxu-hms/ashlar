@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "how-to-use.md",
+            "file": "instructions/index.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "how-to-use.md",
+                "file": "instructions/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,12 +88,12 @@
   },
   "active": "ea779694784fc800",
   "lastOpenFiles": [
+    "instructions/index.md",
+    "instructions/running.md",
     "how-to-use.md",
     "instructions/FAQ.md",
     "instructions/installation.md",
     "instructions/options-tuning.md",
-    "instructions/running.md",
-    "instructions/index.md",
     "overview/DetCompMethods.md",
     "index.md",
     "overview/overview-land.md",

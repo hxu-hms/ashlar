@@ -8,7 +8,7 @@ has_children: true
 # ASHLAR Quick Start
 
 Be sure to [install](./installation.html) ASHLAR appropriately before proceeding through this quick-start guide.  
-[Running ASHLAR](./running.html) is a reference outlines specific inputs that are required to process samples with ASHLAR.
+[Running ASHLAR](./running.html) is a reference page that outlines specific inputs that are required to process samples with ASHLAR.
 
 1. Step 1:
 
