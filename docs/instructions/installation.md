@@ -3,6 +3,7 @@ layout: default
 nav_exclude: false
 title: Installation
 parent: Instructions
+nav_order: 10
 ---
 
 # Installation

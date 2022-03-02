@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Instructions
-nav_order: 8
+nav_order: 3
 has_children: true
 ---
 
@@ -13,6 +13,6 @@ Be sure to [install](./installation.html) ASHLAR appropriately before proceeding
 
 2. Step 2:
 
-3. ---
-
+3. 
+---
 **Note:** *ASHLAR is capable of inputting general TIFF images; however, some additional processing steps are required before these images can be inputted into ASHLAR. Please check back soon for these detailed instructions.*

@@ -1,27 +1,29 @@
 ---
 layout: default
-nav_exclude: false
+nav_exclude: true
 title: Options Reference
 parent: Instructions
+nav_order: 14
 ---
 
-# ASHLAR: Alignment by Simultaneous Harmonization of Layer/Adjacency Registration
+# ASHLAR Run
 
 For detailed instructions on how to install ASHLAR, see [installation](./installation.html).
 
-## Stitch & register whole-slide microscopy images in Python
+## Description
 
-**Ashlar** performs fast, high-quality stitching of microscopy images. It also
-co-registers multiple rounds of cyclic imaging for methods such as CyCIF and
-CODEX. Ashlar can read image data directly from BioFormats-supported microscope
-vendor file formats as well as a directory of plain TIFF files. Output is saved
-as pyramidal, tiled OME-TIFF.
+**Ashlar** performs fast, high-quality stitching of microscopy images. It also co-registers multiple rounds of cyclic imaging for methods such as CyCIF and CODEX. 
+### Input
+Ashlar can read image data directly from BioFormats-supported microscope vendor file formats. ASHLAR can also read a directory of plain TIFF files, however, additional steps are required for this. Further details about how to make TIFF files compatible with ASHLAR will be added soon. 
 
 *Note:* Ashlar requires unstitched individual "tile" images as input, so it is
 not suitable for microscopes or slide scanners that only provide pre-stitched
 images.
 
-## Parameters
+### Output
+Output is saved as pyramidal, tiled OME-TIFF.
+
+## Usage:
 
 Detailed information on tuning these parameters will be added soon.
 
