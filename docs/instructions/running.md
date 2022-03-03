@@ -9,6 +9,7 @@ nav_order: 12
 # Running ASHLAR
 
 This page serves as a reference guide for ASHLAR syntax. Refer to the [quick start guide](./) for step-by-step instructions.
+
 ## Description
 **Ashlar** performs fast, high-quality stitching of microscopy images. It also co-registers multiple rounds of cyclic imaging for methods such as CyCIF and CODEX. 
 

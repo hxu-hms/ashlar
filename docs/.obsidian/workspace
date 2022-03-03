@@ -9,7 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
+
             "file": "instructions/FAQ.md",
+
             "mode": "source"
           }
         }
@@ -52,7 +54,9 @@
       }
     ],
     "direction": "horizontal",
+
     "width": 203
+
   },
   "right": {
     "id": "610d1d83b48137d3",
@@ -68,7 +72,9 @@
             "state": {
               "type": "backlink",
               "state": {
+
                 "file": "instructions/FAQ.md",
+
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",

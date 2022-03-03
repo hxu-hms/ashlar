@@ -7,7 +7,6 @@ parent: Home
 
 ## This website is contains several types of documentation
 
-
 1. [Overview](./overview/overview-land.html) provides relevant background information related to ASHLAR and more details about how ASHLAR works.  
 
 2. Tutorial (coming soon!) will provides a step-by-step example workflow that will allow beginners to turn a sample of multiplexed images  into a mosaic image.  
